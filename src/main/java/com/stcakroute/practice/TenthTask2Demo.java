@@ -1,6 +1,8 @@
+
 package com.stcakroute.practice;
 import java.util.*;
-public class TenthTask2 {
+public class TenthTask2Demo
+{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter string: ");
@@ -22,6 +24,6 @@ public class TenthTask2 {
         System.out.println(output);
         s.close();
     }
+
+
 }
-
-
