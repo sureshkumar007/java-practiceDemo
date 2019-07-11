@@ -20,7 +20,7 @@ public class TenthTask2Demo
         for (int i = 0; i < number; i++) {
             output.append(subString);
         }
-//        output.append(subString.repeat(number));
+
         System.out.println(output);
         s.close();
     }
