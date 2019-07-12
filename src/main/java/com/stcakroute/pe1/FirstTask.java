@@ -2,7 +2,7 @@ package com.stcakroute.pe1;
 import java.util.*;
 public class FirstTask
 {
-    public static void main(String args[])
+   /* public static void main(String args[])
     {
         int num,rev=0,temp,even,total=0;
                 Scanner input=new Scanner(System.in);
@@ -43,6 +43,10 @@ public class FirstTask
           {
               System.out.println("not greater than 25");
           }
-    }
+    }*/
+   public String palindromeMain(int number)
+   {
+       if()
+   }
 
 }
