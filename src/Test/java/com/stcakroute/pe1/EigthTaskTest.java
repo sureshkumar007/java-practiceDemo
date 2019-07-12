@@ -4,8 +4,9 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-public class OddEvenCheckTest {
-    OddEvenCheck obj = new OddEvenCheck();
+public class EigthTaskTest {
+   //arrange
+    EigthTask obj=new EigthTask();
 
     @BeforeClass
     public static void beforeClass() {
@@ -28,22 +29,17 @@ public class OddEvenCheckTest {
     }
 
     @Test
-    public void mainCheck()
-
-        {
-            String var = obj.function(30);
-            assertEquals("Tom", var);
-            //System.out.println("Tom");
-            assertNotNull(var);
-        }
-
-        @Test
-        public void getNullValue()
-        {
-            String var1 = obj.function(19);
-            assertEquals("The enter number is below 20", var1);
-        }
+    public void mainfun()
+    {
+      //act
+      String string=obj.mainFunction(5);
+      //assert
+        assertEquals("Greater than",string);
+      /*  assertEquals("less than",string);
+        assertEquals("NUmber matches",string);
+        assertEquals("not matched",string);
+        assertEquals("not null",string);*/
 
 
-
+    }
 }
