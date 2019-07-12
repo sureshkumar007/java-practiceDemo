@@ -46,7 +46,14 @@ public class FirstTask
     }*/
    public String palindromeMain(int number)
    {
-       if()
+       String result="Not a Palindrome";
+       if(isPalindrome(number))
+       {
+           if(isSumOfEvenGreater(number)>25)
+           {
+
+           }
+       }
    }
 
 }
