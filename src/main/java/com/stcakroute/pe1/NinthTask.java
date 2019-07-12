@@ -1,4 +1,4 @@
-package com.stcakroute.practice2;
+package com.stcakroute.pe1;
 import java.lang.String;
 import java.util.*;
 public class NinthTask

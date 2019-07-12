@@ -1,4 +1,4 @@
-package com.stcakroute.practice;
+package com.stcakroute.pe1;
 import java.util.*;
 import java.lang.*;
 
