@@ -4,14 +4,12 @@ import java.lang.*;
 
 public class SixthTask
 {
-    public static void main(String args[])
+    public String CaseChechecker(char ch)
     {
-        char ch;
-        Scanner input=new Scanner(System.in);
-        {
+        String string="";
 
-            System.out.println("Enter the character to check Upper or Lower case");
-            ch=input.next().charAt(0);
+
+
               /* if((ch>='A')&&(ch<='Z'))
                {
                    System.out.println("Capital letter");
@@ -24,22 +22,30 @@ public class SixthTask
               if((ch>=65)&&(ch<=90))
               {
                   System.out.println("Capital Letter");
+                  string="capital letter";
+                  return string;
               }
               else if((ch>=97)&&(ch<=122))
               {
                   System.out.println("Lower case");
+                  string="lower case";
+                  return string;
               }
               else if((ch>=48)&&(ch<=57))
               {
                   System.out.println("Number");
+                  string="number";
+                  return string;
               }
               else
               {
                   System.out.println("Special Symbol");
+                  string="special symbol";
+                  return string;
               }
 
 
         }
     }
 
-}
+
